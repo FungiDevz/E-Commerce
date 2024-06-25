@@ -24,7 +24,16 @@ header{
 
 }
 
-header div{
+header img{
+    height: 50px;
+}
+
+.tituloPagina{
+    width: fit-content;
+    display: flex;
+}
+
+.headerDistribution{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -203,7 +212,7 @@ footer a:hover{
         margin: 0 0;
     }
 
-    header div{
+    .headerDistribution{
         width: 100%;
         margin: 0 0;
 
@@ -260,6 +269,7 @@ footer a:hover{
 
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 52%);
+
     }
 
     .tres{
@@ -286,8 +296,8 @@ footer a:hover{
         width: 516px;
     }
 
-    header div{
-        width: 516px;
+    .headerDistribution{
+        width: 100%;
     }
 
     .seccionDestacados{
@@ -315,13 +325,11 @@ footer a:hover{
         width: 668px;
     }
 
-    header div{
+    .headerDistribution{
         width: 668px;
-    }
-
-    header div{
         flex-direction: row;
     }
+
 
     header h1{
         font-size: 31px;
@@ -343,7 +351,7 @@ footer a:hover{
         width: 800px;
     }
     
-    header div{
+    .headerDistribution{
         width: 800px;
     }
     .destacados h2{
@@ -360,7 +368,7 @@ footer a:hover{
         width: 1100px;
     }
 
-    header div{
+    .headerDistribution{
         width: 1100px;
     }
 }
